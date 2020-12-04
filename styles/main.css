@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+}
+.header__bar {
+}
+.logo {
+}
+.header__bar-menu {
+}
+.bar-menu__sign-in-btn {
+}
+.bar-menu__register-btn {
+}
+.bar-menu__bag {
+}
+.bag {
+}
+.header__restaurant {
+}
+.restaurant__content {
+}
+.restaurant__title {
+}
+.restaurant__about {
+}
+.restaurant__time {
+}
