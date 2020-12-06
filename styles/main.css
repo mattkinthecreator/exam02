@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
+:root {
+  --black: #262626;
+  --black-second: #1d1d1d;
+  --gray: #626262;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -48,7 +54,7 @@
   height: 40px;
   border-radius: 2px;
   border: 1px solid #e0e0e0;
-  color: #1d1d1d;
+  color: var(--black-second);
   text-decoration: none;
   font-weight: 500;
   font-size: 13px;
@@ -62,7 +68,7 @@
   width: 80px;
   height: 40px;
   border-radius: 2px;
-  background: #262626;
+  background: var(--black);
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
@@ -112,7 +118,7 @@
   font-size: 36px;
   font-weight: normal;
   line-height: 42px;
-  color: #1d1d1d;
+  color: var(--black-second);
 }
 
 .restaurant__about {
@@ -123,7 +129,7 @@
   width: 130px;
   font-size: 14px;
   line-height: 16px;
-  color: #626262;
+  color: var(--gray);
   text-align: center;
 }
 
@@ -134,7 +140,7 @@
   color: #ffffff;
   width: 97px;
   height: 32px;
-  background: #262626;
+  background: var(--black);
   border-radius: 16px;
   font-size: 13px;
   line-height: 15px;
@@ -162,7 +168,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #626262;
+  color: var(--gray);
   text-decoration: none;
   margin-right: 40px;
 }
@@ -217,7 +223,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #1d1d1d;
+  color: var(--black-second);
   grid-area: title;
 }
 
@@ -225,7 +231,7 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 21px;
-  color: #1d1d1d;
+  color: var(--black-second);
   grid-area: price;
   padding: 83px 0 0 16px;
 }
@@ -241,7 +247,7 @@
   padding: 16px 0 0 16px;
   font-size: 13px;
   line-height: 21px;
-  color: #626262;
+  color: var(--gray);
   grid-area: about;
   display: none;
 }
@@ -260,7 +266,7 @@
 .footer {
   width: 99vw;
   height: 443px;
-  background: #262626;
+  background: var(--black);
   padding-left: 7vw;
   padding-top: 56px;
 }
